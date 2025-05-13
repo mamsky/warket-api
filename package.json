@@ -13,6 +13,7 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.18",
     "@types/express": "^5.0.1",
     "@types/node": "^22.15.17",
@@ -27,7 +28,9 @@
   },
   "dependencies": {
     "@prisma/client": "^6.7.0",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
-    "joi": "^17.13.3"
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2"
   }
 }

@@ -5,11 +5,10 @@ import cors from 'cors';
 import { corsOption } from './config/cors.config';
 
 const app = express();
-app.use(express.json());
 app.use(cors(corsOption));
+app.use(express.json());
 
 app.use('/', groupRoute);
-
 app.use(errorHandler);
 
 export default app;

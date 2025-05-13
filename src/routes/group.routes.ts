@@ -1,8 +1,7 @@
 import express, { Request, Response } from 'express';
+import authRouter from './auth.routes';
 const route = express.Router();
 
-route.get('/', (req: Request, res: Response) => {
-  res.send('hallo group route');
-});
+route.use('/auth', authRouter);
 
 export default route;
