@@ -13,6 +13,7 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.18",
     "@types/express": "^5.0.1",
     "@types/node": "^22.15.17",
     "dotenv": "^16.5.0",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "@prisma/client": "^6.7.0",
+    "cors": "^2.8.5",
     "joi": "^17.13.3"
   }
 }
